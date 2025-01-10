@@ -11,8 +11,8 @@ let string = "Hola mundo hola mundo hola mundo";
 console.log("Cadena original: " + string);
 replaceCharacter(string, "hola", "adios");
 
-//EXPRESIONES GLOBALES
-let = newString = string.replace(/hola/gi, "adios");
+//EXPRESIONES REGULARES (REGEX)
+let newString = string.replace(/hola/gi, "adios");
 console.log("Cadena Regex: " + newString);
 
 // g: Reemplaza todas las apariciones de una subcadena(palabra o caracter) en la cadena por otra.
